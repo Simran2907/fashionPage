@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: : border-box;
+    background-color: aliceblue;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+   background: radial-gradient(#fff,#55);
+}
+.header{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    font-size:30px;
+    margin-right: 20px;    
+}
+a{
+    text-decoration:none    ;
+    color: #555;    
+}
+p{
+    color:#555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-item: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top:50px;
+}
+.col-2 {
+    font-size: 20px;
+    padding-top:0px;
+    padding-left:100px;
+ 
+}
+.col-2 h1{
+    padding-top: 20px;
+    font-size: 35px;
+    line-height: 45px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.col-2 img{
+    max-width: 350px;
+    background-color:#55;
+    padding-right: 150px;
+    padding-left: 0px;
+    
+}
+.btn{
+    display:inline-block;
+    background: #000000;
+    color: white;
+    padding:8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #555;
+}
+.header .row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+    padding-right: 50px;
+    padding-left:50px;
+}
+.col-3{
+    flex-basis:10;
+    min-width:70px;
+    margin-bottom: 30px;
+}
+.col-3 h2{
+    padding-left: 75px;
+    color:darkslategrey;
+}
+.col-3 img{
+    max-width:250px;
+    height:400px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 70px;
+    padding-right:70px;
+}
+.col-4{
+    flex-basis:10;
+    padding:5px;
+    min-width:70px;
+    margin-bottom:50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    max-width: 250px;
+    height: 300px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+    color: firebrick;
+}
+.title::after{
+    content: "";
+    background: #ff523b;
+    width:100px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+    
+}
+h4{
+    color:black;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
